@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-3</title>
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <!-- DaisyUI CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font awesome link -->
+    <script src="https://kit.fontawesome.com/575391f96d.js" crossorigin="anonymous"></script>
+
+    <style>
+        .font-sora {
+        font-family: "Sora", serif;        
+    }
+
+    </style>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                'primary-color': '#179800',
+                'secondary-color': '#EFEBE3',
+                'text-color': '#111111',
+
+              }
+            }
+          }
+        }
+      </script>
+</head>
+<body class=".font-sora">
+    
+    <header class=" bg-gradient-to-t from-[#EFEBE3]">
+        <div class="md:container md:mx-auto">
+            <!-- navbar section -->
+            <nav>
+                <div class="navbar bg-base-100">
+                    <div class="flex-1">
+                    
+                    <a class="btn btn-ghost text-xl pl-0">
+                        <img class="hidden lg:block" src="assets/logo-header.png" alt=""><img class="lg:hidden" src="assets/logo-footer.png" alt="">
+                    </a>
+                    </div>
+                    <div class="navbar-center hidden md:flex lg:flex lg:px-60 md:px-40">
+                    <ul class="menu menu-horizontal px-1 text-text-color text-xl">
+                        <li><a>Product</a></li>
+                        <li><a>Services</a></li>
+                        <li><a>Contact us</a></li>
+                    </ul>
+                    </div>
+                    <div class="hidden lg:flex space-x-3 text-text-color text-xl pr-0">                    
+                        <div>
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </div>
+                        <div>
+                            <a class="btn btn-outline text-text-color text-xl">Button</a>
+                        </div>
+                        <div>
+                            <a class="btn bg-primary-color lg:px-8 text-[white] text-xl">Register</a>
+                        </div>                  
+                        
+                    </div>
+                    <div class="dropdown mr-8">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="h-5 w-5"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M4 6h16M4 12h16M4 18h16"/>
+                        </svg>
+                        </div>
+                        <ul
+                        tabindex="0"
+                        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3  p-2 shadow">
+                        <li><a>Product</a></li>
+                        <li><a>Services</a></li>
+                        <li><a>Contact us</a></li>
+                        <div>
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </div>
+                        <div>
+                            <a class="btn btn-outline px-3">Button</a>
+                        </div>
+                        <div>
+                            <a class="btn bg-primary-color px-2">Register</a>
+                        </div>                  
+                        </ul>
+                    </div>
+                    
+                </div>
+            </nav>
+            <!-- banner section -->
+            <section class=" mt-24 mb-56 text-center">
+                <div>
+                    <h1 class="font-semibold text-5xl lg:text-6xl text-text-color py-5">Freshness <span class="text-primary-color">You Can <br> Count</span> On, Prices You’ll Love!</h1>
+                    <p class="text-text-color text-xl">Shop your daily essentials at unbeatable prices. From fresh produce to pantry <br> staples, we’ve got you covered every day!</p>
+                </div>
+                <div class="justify-items-center">
+                    <div><img src="assets/hero-vegetables.png" alt=""></div>
+            </section>
+        </div>
+    </header>   
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
